@@ -4,20 +4,6 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-//// for storing username
-//class Session {
-//    private static String currentUsername;
-//
-//    public static String getCurrentUsername() {
-//        return currentUsername;
-//    }
-//
-//    public static void setCurrentUsername(String username) {
-//        currentUsername = username;
-//    }
-//}
-
-
 // Code for making the round Password input box
 class RoundedPasswordField extends JPasswordField {
     private int cornerRadius = 25; // Corner radius for rounded edges
@@ -189,7 +175,7 @@ public class Log_In {
         // Taking Password as Input
         JPasswordField Password_Input = new RoundedPasswordField(15);
         Password_Input.setBounds(10, 200, 450, 30);
-        Password_Input.setEchoChar('+');
+        Password_Input.setEchoChar('☺');
         Password_Input.setMargin(new Insets(5, 10, 5, 10));
 
 
@@ -228,16 +214,6 @@ public class Log_In {
                     JOptionPane.showMessageDialog(frame, "Invalid username or password!");
                     return;
                 }
-
-//                // Close the window after 1 second
-//                Timer timer = new Timer(1000, new ActionListener() {
-//                    @Override
-//                    public void actionPerformed(ActionEvent evt) {
-//                        frame.dispose();
-//                    }
-//                });
-//                timer.setRepeats(false);
-//                timer.start();
         }
         });
 
