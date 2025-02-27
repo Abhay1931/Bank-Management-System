@@ -61,7 +61,7 @@ public class Sign_Up{
         // Taking Password as Input
         JPasswordField Password_Input = new RoundedPasswordField(15);
         Password_Input.setBounds(10, 450, 450, 30);
-        Password_Input.setEchoChar('*');
+        Password_Input.setEchoChar('☺');
         Password_Input.setMargin(new Insets(5, 10, 5, 10));
 
         // Email Text
