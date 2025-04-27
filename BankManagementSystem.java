@@ -10,12 +10,6 @@ import java.io.File;
 import java.io.IOException;
 
 class RoundImageLabel extends JLabel {
-    /**
-     * Constructs a RoundImageLabel with a circular image.
-     *
-     * @param imagePath The file path to the image.
-     * @param diameter  The diameter (in pixels) of the circular image.
-     */
     public RoundImageLabel(String imagePath, int diameter) {
         BufferedImage originalImage = null;
         try {
@@ -209,7 +203,8 @@ public class BankManagementSystem {
 
                 TransferButton.addActionListener(new ActionListener() {
                     public void actionPerformed(ActionEvent e) {
-                        JOptionPane.showMessageDialog(frame, "Transfer funds functionality is not implemented yet.");
+//                        JOptionPane.showMessageDialog(frame, "Transfer funds functionality is not implemented yet.");
+                        Transfer.main(null);
                     }
                 });
 

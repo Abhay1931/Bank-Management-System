@@ -81,17 +81,4 @@ public class Details{
         }
         return 0.0;  // Return a default value (or consider throwing an exception) if no balance is found.
     }
-
-
-
-
-//    public static void main(String[] args) {
-//        Details obj = new Details();
-//        System.out.println(obj.getUsername("Abhay@1931"));
-//        System.out.println(obj.getrPhone("Abhay@1931"));
-//        System.out.println(obj.getEmail("Abhay@1931"));
-//        System.out.println(obj.getAccountNumber("Abhay@1931"));
-//        System.out.println(obj.getBalance("Abhay@1931"));
-//    }
-
 }
